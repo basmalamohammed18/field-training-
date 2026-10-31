@@ -1,0 +1,117 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+ /* height: 200px; */
+}
+.parent{
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(96, 65, 126);
+}
+h1{
+    color: rgb(248, 224, 11);
+}
+nav a{
+    color: aliceblue;
+    text-decoration: none;
+    padding: 20px;
+    font-size: 20px;
+    color: rgb(236, 236, 241);
+   
+}
+.child{
+    height: 500px;
+    /* display: flex; */
+    background-color: rgb(118, 115, 121);
+    /* height: 450pxpx; */
+   
+    /* justify-content: end; */
+    /* animation: malak 5s 2; */
+}
+.child img{
+   float: right;
+    border-radius: 20px;
+    transition: transform 0.5s 2;
+      animation: malak 5s 1;
+
+    /* transform: translate(); */
+}
+
+
+h2{
+    color: aliceblue;
+    font-size: 40px;
+}
+
+
+.card{
+    display: flex;
+    background-color: rgb(180, 180, 194);
+    height: 500px;
+}
+.cards{
+    width: 400px;
+    height: 400px;
+   margin: 15px;
+   border-radius: 70px ;
+   background-color: blue;
+   background-image: url(./WhatsApp\ Image\ 2026-10-12\ at\ 18.12.45.jpeg);
+   /* transform: translate(100px 100px); */
+   animation: malak 5s 2;
+
+
+}
+@keyframes malak{
+    0%{
+        transform: translate(0,0);
+        
+    }
+    50%{
+        transform: translate(100px,50px);
+    }
+    100%{
+        transform: translate(100px,100px);
+    }
+}
+
+.cards p{
+    transition: transform 1s 2;
+     /* transform: translatey(50px); */
+}
+
+
+.cards:active{
+    transform: translatey(-30px);
+    background-color: aqua;
+     transition: transform 8s 2;
+}
+
+
+.cards img{
+   
+    border-radius: 10px;
+
+}
+.child p{
+    margin: 40px;
+    /* color: aliceblue; */
+    color: rgb(237, 253, 4);
+    font-size: 30px;
+}
+button{
+    background-color: aliceblue;
+    color: black;
+    text-align: center;
+}
+
+
+
+h2{
+    color: rgb(252, 152, 2);
+}
+p{
+    margin: 50px;
+    color: aliceblue;
+}

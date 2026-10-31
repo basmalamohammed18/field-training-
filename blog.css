@@ -1,0 +1,87 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+h1{
+    font-size: 80px;
+   color: rgb(4, 136, 252);
+    margin: 10px;
+    text-align:center ;
+}
+h2{
+    font-size: 30px;
+    margin: 10px;
+    text-align:center ;
+    color: rgb(218, 4, 33);
+}
+.patent{
+
+background-image: url(./WhatsApp\ Image\ 2026-10-13\ at\ 22.36.37.jpeg);
+}
+
+.child{
+    border-radius: 30px;
+  margin: 30px;
+  padding: 30px;
+  margin: 20px;
+    display: inline-block;
+    
+    background-image: url(./WhatsApp\ Image\ 2026-10-13\ at\ 22.36.37.jpeg);
+    /* transform: translate(100px,100px);
+    transform: rotate(360deg);
+    transform: scale(1,1); */
+    animation:malak 5s  1;
+}
+@keyframes malak{
+    0%{
+        transform: translate(0,0);
+    }
+    50%{
+       transform: translate(50px,50px); 
+    }
+    100%{
+         transform: translate(100px,0); 
+    }
+}
+/* .child:hover{
+    background-color: aquamarine;
+    transform: translate(360deg);
+    transition:1,5  all;
+    transition: transform .1s;
+} */
+.cards{
+    background-image: url(./WhatsApp\ Image\ 2026-10-13\ at\ 22.36.37.jpeg);
+    margin: 20px;
+    display: inline-block;
+    text-align: center;
+    
+  padding: 30px;
+  animation: asmaa 5s 1;
+}
+@keyframes asmaa{
+    0%{
+        transform: translate(0,0) ;
+    }
+
+    50%{
+        transform: translate(50px,50px) ;
+    }
+     100%{
+        transform: translate(100px,0);
+    }
+}
+img{
+    border-radius: 50px;
+}
+button{
+    margin: 30px;
+    border-radius: 50px;
+    padding: 10px;
+    color: rgb(6, 138, 254);
+    background-color: blue;
+}
+p{
+    color: rgb(2, 132, 245);
+}

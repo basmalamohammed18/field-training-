@@ -1,0 +1,112 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.conteiner{
+    /* flex-wrap: wrap; */
+     padding: 0 10px;
+
+}
+.parent{
+    /* border-radius: 30px; */
+  padding: 30x 0; 
+    /* background-image: url(./WhatsApp\ Image\ 2026-10-12\ at\ 18.12.45.jpeg); */
+    /* background-color: rgba(145, 77, 13, 0.966); */
+    background-color: plum;
+    display: flex;
+    justify-content: space-between;
+    
+   height: 200px;
+   background-size: cover;
+   overflow: hidden;  
+}
+a{
+   
+    margin: 30px;
+    text-decoration: none;
+    color: aliceblue;
+}
+nav{
+    border-radius: 50px;
+  /* background-color: brown; */
+  /* background-color: black; */
+  background-color: blueviolet;
+  padding: 20px;  
+}
+h1{
+    /* color: #f8f1f1; */
+    color: #000;
+}
+span{
+    color: yellow;
+}
+
+.login{
+    background-color: bisque;
+}
+
+.login-contant{
+
+    display:grid;
+    justify-content: center;
+    padding: 200px;
+}
+form{
+    /* background-color: brown; */
+    background-color: bisque;
+    display: grid;
+    padding: 100px;
+    font-size: 20px;
+    /* border-radius: 30px; */
+    color: #000;
+}
+h2{
+    /* background-image: url(./WhatsApp\ Image\ 2026-10-13\ at\ 22.36.36.jpeg); */
+    /* background-color: black; */
+    background-color: blueviolet;
+      border-radius: 20px 0;
+    padding: 20px;
+    font-size: 20px;
+    
+    color: aliceblue;
+}
+button{
+    background-color: rgb(193, 8, 250);
+    color: blanchedalmond;
+    padding: 10px;
+    width: 100px;
+    border-radius: 20px;
+}
+h1{
+   
+    font-size: 50px;
+   
+   
+     color: blanchedalmond;
+}
+span{
+    font-size: 50px;
+    color: yellow;
+}
+img{
+    margin: 30px;
+    border-radius: 50px;
+}
+p{
+    color: #000;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 30px;
+    text-align: center;
+}
+h2{
+    font-size: 30px;
+    text-align: center;
+}
+input{
+    border-radius: 20px;
+    padding: 15px;
+}
+p:hover{
+    background-color: rgb(6, 119, 224);
+}

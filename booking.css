@@ -1,0 +1,23 @@
+body{
+    background-color: rgba(5, 75, 180, 0.699);
+
+nav {
+    gap: 50px;
+    margin: 20px;
+    padding: 20px;
+    text-align: center;
+    border-radius: 10px;
+    background-color: black;
+}
+
+}
+h1{
+    background-color: aliceblue;
+}
+a{
+    padding: 20px;
+   text-align: center;
+    border-radius: 10px;
+    text-decoration: none;
+    color: aliceblue;
+}

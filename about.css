@@ -1,0 +1,53 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.login{
+    background-color: bisque;
+}
+
+.login-contant{
+background-image: url(./WhatsApp\ Image\ 2026-10-13\ at\ 22.36.37.jpeg);
+   background-color: blueviolet;
+    display: flex;
+    justify-content: center;
+    padding: 200px;
+}
+form{
+    background-image: url(./WhatsApp\ Image\ 2026-10-12\ at\ 18.12.45.jpeg);
+    padding: 100px;
+    background-color: rgb(143, 128, 128);
+    border-radius: 30px;
+    color: aliceblue;
+}
+h2{
+    background-image: url(./WhatsApp\ Image\ 2026-10-13\ at\ 22.36.36.jpeg);
+      border-radius: 20px 0;
+    padding: 20px;
+    font-size: 20px;
+    background-color: rgb(193, 8, 250);
+    color: aliceblue;
+}
+button{
+    background-color: rgb(193, 8, 250);
+    color: blanchedalmond;
+    padding: 10px;
+    width: 100px;
+    border-radius: 20px;
+}
+h1{
+    padding: 30px;
+    font-size: 50px;
+    text-align: center;
+    background-color: rgb(193, 8, 250);
+     color: blanchedalmond;
+}
+span{
+    font-size: 50px;
+    color: yellow;
+}
+img{
+    margin: 30px;
+    border-radius: 50px;
+}
